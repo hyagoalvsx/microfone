@@ -12,7 +12,8 @@ function onYouTubeIframeAPIReady(){
 }
 
 function onPlayerReady(event){
-    event.target.playVideo();
+    event.target(); /* clica no play manualmente */
+    /* event.target.playVideo() o video começa automaticamente */
 }
 
 async function startMic(){
